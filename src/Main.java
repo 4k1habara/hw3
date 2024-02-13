@@ -60,5 +60,16 @@ public class Main {
         int weightInGrams = bananas + milk + iceCream + eggs;
         float weightInKilograms = (float) weightInGrams / 1000;
         System.out.println("Вес данного спортзавтрака составляет " + weightInGrams + " грамм, либо же " + weightInKilograms + " килограмм");
+        //Task 7
+        int needToLose = 7 * 1000;
+        int loseMin = 250;
+        int loseMax = 500;
+        int daysMin = needToLose / loseMin;
+        int daysMax = needToLose / loseMax;
+        int loseAverage = (loseMax + loseMin) / 2;
+        float daysAverage = (float) needToLose / loseAverage;
+        System.out.println("Если спортсмен каждый день будет терять по " + loseMin + " грамм, то ему понадобится " + daysMin + " дней");
+        System.out.println("Если спортсмен каждый день будет терять по " + loseMax + " грамм, то ему понадобится " + daysMax + " дней");
+        System.out.println("Если спортсмен каждый день будет терять в весе среднее значение, равное " + loseAverage + " грамм, то ему понадобится " + daysAverage + " дней");
     }
 }
