@@ -52,5 +52,13 @@ public class Main {
         int totalWhiteTins = classes * whiteTins;
         int totalBrownTins = classes * brownTins;
         System.out.println("В школе, где " + classes + " классов, нужно " + totalWhiteTins + " банок белой краски и " + totalBrownTins + " банок коричневой краски");
+        //Task 6
+        int bananas = 5 * 80;
+        int milk = 200 / 100 * 105;
+        int iceCream = 2 * 100;
+        int eggs = 4 * 70;
+        int weightInGrams = bananas + milk + iceCream + eggs;
+        float weightInKilograms = (float) weightInGrams / 1000;
+        System.out.println("Вес данного спортзавтрака составляет " + weightInGrams + " грамм, либо же " + weightInKilograms + " килограмм");
     }
 }
