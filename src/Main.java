@@ -30,5 +30,19 @@ public class Main {
         int totalStudents = lP + aS + eA;
         int paperPerStudent = totalPaper / totalStudents;
         System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги");
+        //Task 4
+        int overallPerf = 16 / 2;
+        int time1 = 20;
+        int time2 = 24 * 60;
+        int time3 = 3 * 24 * 60;
+        int time4 = 31 * 24 * 60;
+        int perf1 = overallPerf * time1;
+        int perf2 = overallPerf * time2;
+        int perf3 = overallPerf * time3;
+        int perf4 = overallPerf * time4;
+        System.out.println("За " + time1 + " минут машина произвела" + perf1 + " штук бутылок");
+        System.out.println("За " + time2 + " минут машина произвела" + perf2 + " штук бутылок");
+        System.out.println("За " + time3 + " минут машина произвела" + perf3 + " штук бутылок");
+        System.out.println("За " + time4 + " минут машина произвела" + perf4 + " штук бутылок");
     }
 }
