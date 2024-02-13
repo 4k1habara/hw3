@@ -71,5 +71,18 @@ public class Main {
         System.out.println("Если спортсмен каждый день будет терять по " + loseMin + " грамм, то ему понадобится " + daysMin + " дней");
         System.out.println("Если спортсмен каждый день будет терять по " + loseMax + " грамм, то ему понадобится " + daysMax + " дней");
         System.out.println("Если спортсмен каждый день будет терять в весе среднее значение, равное " + loseAverage + " грамм, то ему понадобится " + daysAverage + " дней");
+        //Task 8
+        int mSalary = 67760;
+        int dSalary = 83690;
+        int kSalary = 76230;
+        int mIncreased = mSalary + (mSalary * 10 / 100);
+        int mYearDif = mSalary * 10 / 100 * 12;
+        System.out.println("Маша теперь получает " + mIncreased + " рублей. Годовой доход вырос на " + mYearDif + " рублей");
+        int dIncreased = dSalary + (dSalary * 10 / 100);
+        int dYearDif = dSalary * 10 / 100 * 12;
+        System.out.println("Денис теперь получает " + dIncreased + " рублей. Годовой доход вырос на " + dYearDif + " рублей");
+        int kIncreased = kSalary + (kSalary * 10 / 100);
+        int kYearDif = kSalary * 10 / 100 * 12;
+        System.out.println("Кристина теперь получает " + kIncreased + " рублей. Годовой доход вырос на " + kYearDif + " рублей");
     }
 }
