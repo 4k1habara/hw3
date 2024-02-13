@@ -21,7 +21,6 @@ public class Main {
         int e1 = -159;
         short f1 = 27897;
         byte g1 = 67;
-        System.out.println(a1 + b1);
         //Task 3
         int lP = 23;
         int aS = 27;
