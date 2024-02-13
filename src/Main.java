@@ -44,5 +44,13 @@ public class Main {
         System.out.println("За " + time2 + " минут машина произвела" + perf2 + " штук бутылок");
         System.out.println("За " + time3 + " минут машина произвела" + perf3 + " штук бутылок");
         System.out.println("За " + time4 + " минут машина произвела" + perf4 + " штук бутылок");
+        //Task 5
+        int totalTins = 120;
+        int whiteTins = 2;
+        int brownTins = 4;
+        int classes = totalTins / (whiteTins + brownTins);
+        int totalWhiteTins = classes * whiteTins;
+        int totalBrownTins = classes * brownTins;
+        System.out.println("В школе, где " + classes + " классов, нужно " + totalWhiteTins + " банок белой краски и " + totalBrownTins + " банок коричневой краски");
     }
 }
