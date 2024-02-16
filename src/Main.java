@@ -33,8 +33,8 @@ public class Main {
         int overallPerf = 16 / 2;
         int time1 = 20;
         int time2 = 24 * 60;
-        int time3 = 3 * 24 * 60;
-        int time4 = 31 * 24 * 60;
+        int time3 = 3 * time2;
+        int time4 = 31 * time2;
         int perf1 = overallPerf * time1;
         int perf2 = overallPerf * time2;
         int perf3 = overallPerf * time3;
@@ -74,14 +74,16 @@ public class Main {
         int mSalary = 67760;
         int dSalary = 83690;
         int kSalary = 76230;
-        int mIncreased = mSalary + (mSalary * 10 / 100);
-        int mYearDif = mSalary * 10 / 100 * 12;
+        float percent = 10 / 100f;
+        int year = 12;
+        float mIncreased = mSalary + (mSalary * percent);
+        float mYearDif = mSalary * percent * year;
         System.out.println("Маша теперь получает " + mIncreased + " рублей. Годовой доход вырос на " + mYearDif + " рублей");
-        int dIncreased = dSalary + (dSalary * 10 / 100);
-        int dYearDif = dSalary * 10 / 100 * 12;
+        float dIncreased = dSalary + (dSalary * percent);
+        float dYearDif = dSalary * percent * year;
         System.out.println("Денис теперь получает " + dIncreased + " рублей. Годовой доход вырос на " + dYearDif + " рублей");
-        int kIncreased = kSalary + (kSalary * 10 / 100);
-        int kYearDif = kSalary * 10 / 100 * 12;
+        float kIncreased = kSalary + (kSalary * percent);
+        float kYearDif = kSalary * percent * year;
         System.out.println("Кристина теперь получает " + kIncreased + " рублей. Годовой доход вырос на " + kYearDif + " рублей");
     }
 }
